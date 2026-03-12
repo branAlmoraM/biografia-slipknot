@@ -1,0 +1,42 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.table-info {
+  display: flex;
+  flex-direction: column;
+  border: thin solid lightgray;
+  padding: 5px;
+}
+
+.table-info h4 {
+  background-color: cornflowerblue;
+  color: black;
+  text-align: center;
+}
+
+.origen {
+  display: flex;
+  gap: 15px;
+}
